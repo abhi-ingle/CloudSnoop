@@ -34,7 +34,7 @@ CloudSnoop is a Go-based tool designed to extract and analyze cloud storage link
 
 3. **Build the tool**:
     ```bash
-    go build -o cloudsnoop main.go
+    go build -o cloudsnoop cloudsnoop.go
     ```
 
 ## Usage
