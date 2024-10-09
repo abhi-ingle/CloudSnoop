@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="static/cloudsnoop.webp" width="80%" height="270px" alt="CloudSnoop">
+  <img src="static/cloudsnoop.png" width="80%" height="270px" alt="CloudSnoop">
 </h1>
 
 <h1 align="center"><u>CloudSnoop</u></h1>
