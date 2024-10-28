@@ -1,9 +1,9 @@
 <h1 align="center">
   <br>
-  <img src="static/cloudsnoop.webp" width="80%" height="270px" alt="CloudSnoop">
+  <img src="static/Snooper.webp" width="80%" height="270px" alt="Snooper">
 </h1>
 
-<h1 align="center"><u>CloudSnoop</u></h1>
+<h1 align="center"><u>Snooper</u></h1>
 
 <p align="center">
   <a href="#description">Description</a> •
@@ -18,28 +18,28 @@
 
 ## Description
 
-CloudSnoop is a Go-based tool designed to extract and analyze cloud storage links (Google Drive, SharePoint, Dropbox) from various sources, including URL endpoints and publicly exposed files (`.pptx`, `.pdf`, `.txt`). 
+Snooper is a Go-based tool designed to extract and analyze cloud storage links (Google Drive, SharePoint, Dropbox) from various sources, including URL endpoints and publicly exposed files (`.pptx`, `.pdf`, `.txt`). 
 
 ## Installation
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/abhi-ingle/cloudsnoop.git
+    git clone https://github.com/abhi-ingle/Snooper.git
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd cloudsnoop
+    cd Snooper
     ```
 
 3. **Build the tool**:
     ```bash
-    go build -o cloudsnoop cloudsnoop.go
+    go build -o snooper snooper.go
     ```
 
 ## Usage
 
-CloudSnoop can extract cloud storage links from either directly provided URLs or from a file containing multiple URLs.
+Snooper can extract cloud storage links from either directly provided URLs or from a file containing multiple URLs.
 
 ### Command-line Options
 
@@ -51,17 +51,17 @@ CloudSnoop can extract cloud storage links from either directly provided URLs or
 
 1. **Extract Dropbox links from a file**:
     ```bash
-    ./cloudsnoop --snoop dropbox --file path/to/your/file.txt
+    ./snooper --snoop dropbox --file path/to/your/file.txt
     ```
 
 2. **Extract all cloud links from given URLs**:
     ```bash
-    ./cloudsnoop --snoop all --url "https://example.com/file1.pdf","https://example.com/file2.pptx"
+    ./snooper --snoop all --url "https://example.com/file1.pdf","https://example.com/file2.pptx"
     ```
 
 3. **Extract Google Drive links from a specific URL**:
     ```bash
-    ./cloudsnoop --snoop drive --url "https://example.com/public-file.html"
+    ./snooper --snoop drive --url "https://example.com/public-file.html"
     ```
 
 ## Future Scope
