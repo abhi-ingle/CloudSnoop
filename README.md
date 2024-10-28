@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="static/Snooper.webp" width="80%" height="270px" alt="Snooper">
+  <img src="static/snooper.jpeg" width="80%" height="270px" alt="Snooper">
 </h1>
 
 <h1 align="center"><u>Snooper</u></h1>
