@@ -3,9 +3,12 @@ module github.com/abhi-ingle/cloudsnoop
 go 1.23.2
 
 require (
-	code.sajari.com/docconv/v2 v2.0.0-pre.4 // indirect
+	code.sajari.com/docconv/v2 v2.0.0-pre.4
+	github.com/PuerkitoBio/goquery v1.10.0
+)
+
+require (
 	github.com/JalfResi/justext v0.0.0-20170829062021-c0282dea7198 // indirect
-	github.com/PuerkitoBio/goquery v1.10.0 // indirect
 	github.com/advancedlogic/GoOse v0.0.0-20191112112754-e742535969c1 // indirect
 	github.com/andybalholm/cascadia v1.3.2 // indirect
 	github.com/araddon/dateparse v0.0.0-20200409225146-d820a6159ab1 // indirect
@@ -23,5 +26,5 @@ require (
 	github.com/ssor/bom v0.0.0-20170718123548-6386211fdfcf // indirect
 	golang.org/x/net v0.29.0 // indirect
 	golang.org/x/text v0.18.0 // indirect
-	google.golang.org/protobuf v1.30.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 )
